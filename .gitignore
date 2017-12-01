@@ -1,0 +1,29 @@
+# Scala
+# https://github.com/github/gitignore/blob/master/Scala.gitignore
+*.class
+*.log
+
+# SBT
+# https://github.com/github/gitignore/blob/master/Global/SBT.gitignore
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+.history
+.cache
+.lib/
+
+# Intellij
+# Based on https://github.com/github/gitignore/blob/master/Global/JetBrains.gitignore
+.idea/
+cmake-build-debug/
+*.iws
+out/
+.idea_modules/
+atlassian-ide-plugin.xml
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
